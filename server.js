@@ -1,3 +1,6 @@
+app.get("/", (req, res) => {
+  res.send("Backend Running");
+});
 const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
